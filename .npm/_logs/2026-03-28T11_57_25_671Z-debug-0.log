@@ -1,0 +1,48 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install dotenv
+7 verbose argv "install" "dotenv"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-03-28T11_57_25_671Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-03-28T11_57_25_671Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:831782912 maxSize:207945728 maxEntrySize:103972864
+12 silly idealTree buildDeps
+13 silly fetch manifest dotenv@*
+14 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/dotenv 1358ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/dotenv set size:270065 disposed:false
+17 silly placeDep ROOT dotenv@17.3.1 OK for:  want: *
+18 silly reify moves {}
+19 silly audit bulk request {
+19 silly audit   '@supabase/auth-js': [ '2.100.1' ],
+19 silly audit   '@supabase/functions-js': [ '2.100.1' ],
+19 silly audit   '@supabase/phoenix': [ '0.4.0' ],
+19 silly audit   '@supabase/postgrest-js': [ '2.100.1' ],
+19 silly audit   '@supabase/realtime-js': [ '2.100.1' ],
+19 silly audit   '@supabase/storage-js': [ '2.100.1' ],
+19 silly audit   '@supabase/supabase-js': [ '2.100.1' ],
+19 silly audit   '@types/node': [ '25.5.0' ],
+19 silly audit   '@types/ws': [ '8.18.1' ],
+19 silly audit   'groq-sdk': [ '1.1.2' ],
+19 silly audit   'iceberg-js': [ '0.8.1' ],
+19 silly audit   tslib: [ '2.8.1' ],
+19 silly audit   'undici-types': [ '7.18.2' ],
+19 silly audit   ws: [ '8.20.0' ],
+19 silly audit   dotenv: [ '17.3.1' ]
+19 silly audit }
+20 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.3.1.tgz 1ms (cache hit)
+21 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-17.3.1.tgz. Extracting by manifest.
+22 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 407ms
+23 silly audit report {}
+24 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-17.3.1.tgz 472ms (cache miss)
+25 silly ADD node_modules/dotenv
+26 verbose cwd /data/data/com.termux/files/home
+27 verbose os Linux 4.19.191+
+28 verbose node v25.8.2
+29 verbose npm  v11.12.1
+30 verbose exit 0
+31 info ok

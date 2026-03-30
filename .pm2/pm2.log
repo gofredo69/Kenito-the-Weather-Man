@@ -1,0 +1,234 @@
+2026-03-30T12:18:05: PM2 log: ===============================================================================
+2026-03-30T12:18:05: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-03-30T12:18:05: PM2 log: Time                 : Mon Mar 30 2026 12:18:05 GMT+0800 (Philippine Standard Time)
+2026-03-30T12:18:05: PM2 log: PM2 version          : 6.0.14
+2026-03-30T12:18:05: PM2 log: Node.js version      : 25.8.2
+2026-03-30T12:18:05: PM2 log: Current arch         : arm64
+2026-03-30T12:18:05: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-03-30T12:18:05: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-03-30T12:18:05: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-03-30T12:18:05: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-03-30T12:18:05: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-03-30T12:18:05: PM2 log: Worker Interval      : 30000
+2026-03-30T12:18:05: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-03-30T12:18:05: PM2 log: Concurrent actions   : 2
+2026-03-30T12:18:05: PM2 log: SIGTERM timeout      : 1600
+2026-03-30T12:18:05: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-03-30T12:18:05: PM2 log: ===============================================================================
+2026-03-30T12:18:06: PM2 log: App [weatherbot:0] starting in -fork mode-
+2026-03-30T12:18:06: PM2 log: App [weatherbot:0] online
+2026-03-30T12:18:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:18:06: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:20)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1108:16)
+    at Socket.<anonymous> (node:internal/child_process:480:11)
+    at Socket.emit (node:events:508:20)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-03-30T12:18:06: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:20)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1108:16)
+    at Socket.<anonymous> (node:internal/child_process:480:11)
+    at Socket.emit (node:events:508:20)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-03-30T12:18:26: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:18:36: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:19:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:21:09: PM2 log: ===============================================================================
+2026-03-30T12:21:09: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-03-30T12:21:09: PM2 log: Time                 : Mon Mar 30 2026 12:21:09 GMT+0800 (Philippine Standard Time)
+2026-03-30T12:21:09: PM2 log: PM2 version          : 6.0.14
+2026-03-30T12:21:09: PM2 log: Node.js version      : 25.8.2
+2026-03-30T12:21:09: PM2 log: Current arch         : arm64
+2026-03-30T12:21:09: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-03-30T12:21:09: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-03-30T12:21:09: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-03-30T12:21:09: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-03-30T12:21:09: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-03-30T12:21:09: PM2 log: Worker Interval      : 30000
+2026-03-30T12:21:09: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-03-30T12:21:09: PM2 log: Concurrent actions   : 2
+2026-03-30T12:21:09: PM2 log: SIGTERM timeout      : 1600
+2026-03-30T12:21:09: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-03-30T12:21:09: PM2 log: ===============================================================================
+2026-03-30T12:27:06: PM2 log: App [weatherbot:0] starting in -fork mode-
+2026-03-30T12:27:06: PM2 log: App [weatherbot:0] online
+2026-03-30T12:27:06: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:27:06: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:20)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1108:16)
+    at Socket.<anonymous> (node:internal/child_process:480:11)
+    at Socket.emit (node:events:508:20)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-03-30T12:27:06: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:20)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1108:16)
+    at Socket.<anonymous> (node:internal/child_process:480:11)
+    at Socket.emit (node:events:508:20)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-03-30T12:27:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:27:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:27:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:27:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:27:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:28:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:28:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:29:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:29:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:30:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:30:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:31:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:31:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:32:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:32:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:33:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:33:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:34:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:34:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:35:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:35:12: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:35:12: PM2 log: Stopping app:weatherbot id:0
+2026-03-30T12:35:12: PM2 log: App [weatherbot:0] exited with code [0] via signal [SIGINT]
+2026-03-30T12:35:12: PM2 log: pid=30743 msg=process killed
+2026-03-30T12:35:59: PM2 log: App [weatherbot:0] starting in -fork mode-
+2026-03-30T12:35:59: PM2 log: App [weatherbot:0] online
+2026-03-30T12:35:59: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:36:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:36:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:36:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:36:19: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:36:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:37:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:37:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:38:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:38:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:39:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:39:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:40:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:40:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:41:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:41:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:42:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:42:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:43:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:43:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:44:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:44:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:45:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:45:40: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:46:10: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:50:39: PM2 log: ===============================================================================
+2026-03-30T12:50:39: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2026-03-30T12:50:39: PM2 log: Time                 : Mon Mar 30 2026 12:50:39 GMT+0800 (Philippine Standard Time)
+2026-03-30T12:50:39: PM2 log: PM2 version          : 6.0.14
+2026-03-30T12:50:39: PM2 log: Node.js version      : 25.8.2
+2026-03-30T12:50:39: PM2 log: Current arch         : arm64
+2026-03-30T12:50:39: PM2 log: PM2 home             : /data/data/com.termux/files/home/.pm2
+2026-03-30T12:50:39: PM2 log: PM2 PID file         : /data/data/com.termux/files/home/.pm2/pm2.pid
+2026-03-30T12:50:39: PM2 log: RPC socket file      : /data/data/com.termux/files/home/.pm2/rpc.sock
+2026-03-30T12:50:39: PM2 log: BUS socket file      : /data/data/com.termux/files/home/.pm2/pub.sock
+2026-03-30T12:50:39: PM2 log: Application log path : /data/data/com.termux/files/home/.pm2/logs
+2026-03-30T12:50:39: PM2 log: Worker Interval      : 30000
+2026-03-30T12:50:39: PM2 log: Process dump file    : /data/data/com.termux/files/home/.pm2/dump.pm2
+2026-03-30T12:50:39: PM2 log: Concurrent actions   : 2
+2026-03-30T12:50:39: PM2 log: SIGTERM timeout      : 1600
+2026-03-30T12:50:39: PM2 log: Runtime Binary       : /data/data/com.termux/files/usr/bin/node
+2026-03-30T12:50:39: PM2 log: ===============================================================================
+2026-03-30T12:51:29: PM2 log: App [weatherbot:0] starting in -fork mode-
+2026-03-30T12:51:30: PM2 log: App [weatherbot:0] online
+2026-03-30T12:51:30: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:51:30: PM2 error: Error while calling "getconf CLK_TCK" Error: Command failed: getconf CLK_TCK
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:20)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1108:16)
+    at Socket.<anonymous> (node:internal/child_process:480:11)
+    at Socket.emit (node:events:508:20)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf CLK_TCK'
+}
+2026-03-30T12:51:30: PM2 error: Error while calling "getconf PAGESIZE" Error: Command failed: getconf PAGESIZE
+/data/data/com.termux/files/usr/bin/sh: 1: getconf: not found
+
+    at genericNodeError (node:internal/errors:998:15)
+    at wrappedFn (node:internal/errors:543:14)
+    at ChildProcess.exithandler (node:child_process:417:12)
+    at ChildProcess.emit (node:events:508:20)
+    at ChildProcess.emit (node:domain:552:15)
+    at maybeClose (node:internal/child_process:1108:16)
+    at Socket.<anonymous> (node:internal/child_process:480:11)
+    at Socket.emit (node:events:508:20)
+    at Socket.emit (node:domain:552:15)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'getconf PAGESIZE'
+}
+2026-03-30T12:51:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:51:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:51:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:51:52: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:52:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:52:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:53:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:53:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:54:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:54:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:55:09: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value
+2026-03-30T12:55:39: PM2 warn: [pidusage] We couldn't find uptime from /proc/uptime, using os.uptime() value

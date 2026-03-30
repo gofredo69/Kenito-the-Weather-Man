@@ -1,0 +1,29 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install groq-sdk
+7 verbose argv "install" "groq-sdk"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-03-28T10_58_16_517Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-03-28T10_58_16_517Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:831782912 maxSize:207945728 maxEntrySize:103972864
+12 silly idealTree buildDeps
+13 silly fetch manifest groq-sdk@*
+14 silly packumentCache full:https://registry.npmjs.org/groq-sdk cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/groq-sdk 22970ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/groq-sdk set size:674065 disposed:false
+17 silly placeDep ROOT groq-sdk@1.1.2 OK for:  want: *
+18 silly reify moves {}
+19 http cache groq-sdk@https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.1.2.tgz 0ms (cache hit)
+20 silly tarball no local data for groq-sdk@https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.1.2.tgz. Extracting by manifest.
+21 http fetch GET 200 https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.1.2.tgz 2833ms (cache miss)
+22 silly ADD node_modules/groq-sdk
+23 verbose cwd /data/data/com.termux/files/home
+24 verbose os Linux 4.19.191+
+25 verbose node v25.8.2
+26 verbose npm  v11.12.1
+27 verbose exit 0
+28 info ok

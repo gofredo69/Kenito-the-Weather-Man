@@ -1,0 +1,10 @@
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+God-Tier Enterprise Server Initialized. PM2 Ready.
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+God-Tier Enterprise Server Initialized. PM2 Ready.
+[USER_SUBSCRIBE] SUCCESS { chatId: 1472382152 }
+[LOCATION_UPDATE] SUCCESS { chatId: 1472382152 }
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+God-Tier Enterprise Server Initialized. PM2 Ready.
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+God-Tier Enterprise Server Initialized. PM2 Ready.
