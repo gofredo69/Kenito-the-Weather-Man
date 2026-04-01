@@ -48,8 +48,7 @@ const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 bot.setMyCommands([
     { command: 'start', description: 'Subscribe and setup location' },
-    { command: 'weather', description: 'Fast standard weather check' },
-    { command: 'weather_ai', description: 'Get AI-generated recommendation' },
+    { command: 'weather', description: 'Standard weather check' },
     { command: 'help', description: 'Show all working commands' },
     { command: 'stop', description: 'Unsubscribe from daily updates' }
 ]);
@@ -114,34 +113,16 @@ bot.onText(/\/help/, (msg) => {
     const helpText = "Here are the commands you can use:\n\n" +
                      "/start - Register and share location\n" +
                      "/weather - Get the latest fast weather update\n" +
-                     "/weather_ai - Get an AI-generated weather recommendation\n" +
+                     "/weather ai - Get an AI-generated weather recommendation\n" +
                      "/help - Show this list of commands\n" +
                      "/stop - Unsubscribe from daily messages";
     bot.sendMessage(chatId, helpText);
 });
 
-bot.onText(/\/weather$/, async (msg) => {
+bot.onText(/\/weather(?:\s+(.+))?/, async (msg, match) => {
     const chatId = msg.chat.id;
-    const useAI = false; 
-
-    const { data, error } = await supabase.from('Subscribers').select('latitude, longitude').eq('id', chatId).single();
-
-    if (error || !data || !data.latitude || !data.longitude) {
-        bot.sendMessage(chatId, "📍 I don't have your location yet! Please type /start to share your location.");
-        return;
-    }
-
-    try {
-        const weatherMessage = await getWeatherData(data.latitude, data.longitude, useAI);
-        bot.sendMessage(chatId, weatherMessage);
-    } catch (err) {
-        bot.sendMessage(chatId, "❌ Sorry, I couldn't fetch the weather right now due to a network error. Please try again later.");
-    }
-});
-
-bot.onText(/\/weather_ai/, async (msg) => {
-    const chatId = msg.chat.id;
-    const useAI = true; 
+    const param = match[1] ? match[1].toLowerCase() : '';
+    const useAI = (param === 'ai'); 
 
     const { data, error } = await supabase.from('Subscribers').select('latitude, longitude').eq('id', chatId).single();
 
